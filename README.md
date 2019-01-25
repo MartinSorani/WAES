@@ -77,6 +77,6 @@ Since the back-end scenarios rely on a single request, no breakdown is needed fo
 * [ReportNG](https://reportng.uncommons.org) - Report generation
 * [REST Assured](http://rest-assured.io/) - Back-end tests creation
 
-## Authors
+## Author
 
 * **Martin Sorani**
