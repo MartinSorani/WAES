@@ -44,6 +44,13 @@ Right-click testng.xml
 
 Click 'Run {path-to-file}testng.xml'
 
+### Toggle browser headless
+
+To run the tests in a headless browser open the file testng.xml and set the parameter *browser-headless* to *true*
+```
+<parameter name="browser-headless" value="true"/>
+```
+
 ### Tests cases
 
 Due to time constraints only a few basic tests have been included in order to test the core functionality of the static site, but the project is scalable and more scenarios can be added if needed.
