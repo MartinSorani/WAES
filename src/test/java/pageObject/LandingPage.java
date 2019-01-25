@@ -21,7 +21,6 @@ public class LandingPage extends LandingPage_map {
     }
 
     public SignUpPage gotoSignUpPage(){
-        Log.info("Click sign up link");
         btnSignUp.click();
         return new SignUpPage(driver);
     }

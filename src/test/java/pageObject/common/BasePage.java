@@ -44,7 +44,7 @@ public abstract class BasePage<T> implements IBasePage {
         String expectedUrl = BASE_URI + getRelativeUri();
         Log.info("Verify the url is " + expectedUrl);
         waitForUrlContains(relativeUri);
-        Assert.assertEquals(expectedUrl, driver.getCurrentUrl());
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl, "Url not as expected");
     }
 
     //Sorry, I don't have the time to create and debug an elaborated assertion item, this will have to do =(
