@@ -1,7 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="SignUpSuite" verbose="1">
-    <parameter name="browser" value="firefox"/>
     <test name="SignUpTests">
         <classes>
             <class name="testCases.SignUpTests"/>

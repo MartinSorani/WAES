@@ -1,0 +1,10 @@
+{
+  "id": "2",
+  "username": "dev",
+  "dateOfBirth": "1999-10-10",
+  "email": "zd.dev@wearewaes.com",
+  "isAdmin": "false",
+  "name": "Zuper Dooper Dev",
+  "password": "wizard",
+  "superpower": "A new power."
+}
