@@ -2,6 +2,7 @@ package testCases;
 
 import io.restassured.http.ContentType;
 import org.hamcrest.core.IsEqual;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -11,17 +12,15 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 
 public class BackendTests {
 
-    //@BeforeSuite
-    //RestAssured.baseUri = "http://localhost:8081";
-    private String basePath = "http://localhost:8081";
-
     @Test
-    public void retrieving_info_for_one_user() {
+    @Parameters("BaseUri")
+    public void retrieving_info_for_one_user(String baseUri) {
 
         given()
+                .baseUri(baseUri)
                 .param("username", "dev")
                 .when()
-                .get("http://localhost:8081/waesheroes/api/v1/users/details")
+                .get("/waesheroes/api/v1/users/details")
                 .then()
                 .assertThat()
                 .statusCode(200)
@@ -32,70 +31,80 @@ public class BackendTests {
     }
 
     @Test
-    public void retrieving_information_from_all_users() {
+    @Parameters("BaseUri")
+    public void retrieving_information_from_all_users(String baseUri) {
 
         given()
+                .baseUri(baseUri)
                 .auth()
                 .preemptive()
                 .basic("admin", "hero")
                 .when()
-                .get("http://localhost:8081/waesheroes/api/v1/users/all")
+                .get("/waesheroes/api/v1/users/all")
                 .then()
                 .assertThat()
                 .statusCode(200);
     }
 
     @Test
-    public void login() {
-
-        given()
-                .auth()
-                .preemptive()
-                .basic("tester", "maniac")
-                .when()
-                .get("http://localhost:8081/waesheroes/api/v1/users/access")
-                .then()
-                .assertThat()
-                .statusCode(200);
-    }
-
-    @Test
-    public void signUp() {
+    @Parameters("BaseUri")
+    public void signUp(String baseUri) {
 
         File signUp = new File("src/test/resources/jsonSources/signUpBody.json");
 
         given()
+                .baseUri(baseUri)
                 .contentType("application/json")
                 .body(signUp)
-                .post("http://localhost:8081/waesheroes/api/v1/users")
+                .post("/waesheroes/api/v1/users")
                 .then()
                 .assertThat()
                 .statusCode(201);
     }
 
     @Test
-    public void updateUser() {
-
-        File update = new File("src/test/resources/jsonSources/updateUserBody.json");
+    @Parameters("BaseUri")
+    public void login(String baseUri) {
 
         given()
+                .baseUri(baseUri)
                 .auth()
                 .preemptive()
-                .basic("dev", "wizard")
-                .contentType("application/json")
-                .body(update)
-                .put("http://localhost:8081/waesheroes/api/v1/users")
+                .basic("tester", "maniac")
+                .when()
+                .get("/waesheroes/api/v1/users/access")
                 .then()
                 .assertThat()
                 .statusCode(200);
     }
 
     @Test
-    public void deleteUser() {
+    @Parameters("BaseUri")
+    public void updateUser(String baseUri) {
+
+        File update = new File("src/test/resources/jsonSources/updateUserBody.json");
+
+        given()
+                .baseUri(baseUri)
+                .auth()
+                .preemptive()
+                .basic("dev", "wizard")
+                .contentType("application/json")
+                .body(update)
+                .put("/waesheroes/api/v1/users")
+                .then()
+                .assertThat()
+                .statusCode(200);
+    }
+
+    @Test(dependsOnMethods={"signUp"})
+    @Parameters("BaseUri")
+    public void deleteUser(String baseUri) {
 
         File delete = new File("src/test/resources/jsonSources/deleteUserBody.json");
 
         given()
+                .baseUri(baseUri)
                 .auth()
                 .preemptive()
                 .basic("tester", "maniac")

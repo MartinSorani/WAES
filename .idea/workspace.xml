@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03a3a2c1-5fdc-468f-bcef-a4fe435403c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/jsonSources/deleteUserBody.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/jsonSources/signUpBody.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/jsonSources/singleUserResponse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/jsonSources/updateUserBody.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/data/DataProviderSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/DataProviderSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/common/BaseBackEndTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/BackendTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/BackendTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/BackendTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runners/BackendTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runners/LoginTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/SignUpTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runners/SignUpTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runners/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BackendTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SignUpTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObject/common/BaseBackEndTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/BackendTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/BackendTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/runners/BackendTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runners/BackendTests.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,7 +31,7 @@
         <counts>
           <entry key="BackendTests" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="115" />
+          <entry key="java" value="121" />
           <entry key="json" value="4" />
           <entry key="properties" value="1" />
           <entry key="xml" value="19" />
@@ -56,7 +40,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="113" />
+          <entry key="JAVA" value="119" />
           <entry key="JSON" value="4" />
           <entry key="Properties" value="1" />
           <entry key="Scratch" value="2" />
@@ -66,17 +50,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="60" />
-          <entry key="java" value="19146" />
+          <entry key="java" value="19378" />
           <entry key="json" value="14" />
-          <entry key="xml" value="781" />
+          <entry key="xml" value="785" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19146" />
+          <entry key="JAVA" value="19378" />
           <entry key="JSON" value="14" />
           <entry key="PLAIN_TEXT" value="60" />
-          <entry key="XML" value="781" />
+          <entry key="XML" value="785" />
         </counts>
       </usages-collector>
     </session>
@@ -86,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testCases/BackendTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="742">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,17 +82,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/runners/BackendTests.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="85" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
+            <state relative-caret-position="88">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/runners/LoginTests.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="110">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/LandingPage_map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/NewUserPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/SignUpPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="70" column="22" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/NewUserPage_map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/ProfilePage_map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,39 +168,6 @@
               <folding>
                 <element signature="e#424#425#0" expanded="true" />
                 <element signature="e#495#496#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/common/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/runners/SignUpTests.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/common/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/PageObject/ProfilePage_map.java" />
         <option value="$PROJECT_DIR$/src/PageObject/ProfilePage.java" />
         <option value="$PROJECT_DIR$/src/PageObject/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/test/UI/DummyTest.java" />
@@ -213,7 +226,6 @@
         <option value="$PROJECT_DIR$/src/test/java/testCases/TestSuite.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCases/Backend.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObject/common/utilities/Log.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageObject/SignUpPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObject/NewUserPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObject/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCases/SignUpTests.java" />
@@ -223,7 +235,6 @@
         <option value="$PROJECT_DIR$/src/test/java/pageObject/SignUpPage_map.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObject/NewUserPage_map.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObject/LoginPage_map.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageObject/LandingPage_map.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCases/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/test/resources/LoginTests.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/BackendTests.xml" />
@@ -242,6 +253,9 @@
         <option value="$PROJECT_DIR$/src/test/resources/jsonSources/signUpResponse.json" />
         <option value="$PROJECT_DIR$/src/test/resources/jsonSources/updateUserBody.json" />
         <option value="$PROJECT_DIR$/src/test/resources/jsonSources/deleteUserBody.json" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObject/LandingPage_map.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObject/SignUpPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/runners/BackendTests.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testCases/BackendTests.java" />
       </list>
     </option>
@@ -578,7 +592,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548403934708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548405923617" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JCor/QAAuto/.project" />
@@ -609,7 +623,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BackendTests.deleteUser">
+  <component name="RunManager" selected="TestNG.D:/Testing/IntelliJ Projects/waestechtest/src/test/resources/runners/BackendTests.xml">
     <configuration name="BackendTests.deleteUser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="waestechtest" />
       <extension name="coverage">
@@ -628,7 +642,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackendTests.login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BackendTests.retrieving_info_for_one_user" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="waestechtest" />
       <extension name="coverage">
         <pattern>
@@ -638,25 +652,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
       <option name="MAIN_CLASS_NAME" value="testCases.BackendTests" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BackendTests.retrieving_information_from_all_users" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="waestechtest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.BackendTests" />
-      <option name="METHOD_NAME" value="retrieving_information_from_all_users" />
+      <option name="METHOD_NAME" value="retrieving_info_for_one_user" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -700,20 +696,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D:/Testing/IntelliJ Projects/waestechtest/src/test/resources/runners/BackendTests.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="waestechtest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runners/BackendTests.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.BackendTests.retrieving_information_from_all_users" />
-      <item itemvalue="TestNG.BackendTests.login" />
       <item itemvalue="TestNG.BackendTests.signUp" />
       <item itemvalue="TestNG.BackendTests.updateUser" />
       <item itemvalue="TestNG.BackendTests.deleteUser" />
+      <item itemvalue="TestNG.BackendTests.retrieving_info_for_one_user" />
+      <item itemvalue="TestNG.D:/Testing/IntelliJ Projects/waestechtest/src/test/resources/runners/BackendTests.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BackendTests.deleteUser" />
+        <item itemvalue="TestNG.D:/Testing/IntelliJ Projects/waestechtest/src/test/resources/runners/BackendTests.xml" />
         <item itemvalue="TestNG.BackendTests.signUp" />
+        <item itemvalue="TestNG.BackendTests.retrieving_info_for_one_user" />
+        <item itemvalue="TestNG.BackendTests.deleteUser" />
         <item itemvalue="TestNG.BackendTests.updateUser" />
-        <item itemvalue="TestNG.BackendTests.login" />
-        <item itemvalue="TestNG.BackendTests.retrieving_information_from_all_users" />
       </list>
     </recent_temporary>
   </component>
@@ -731,18 +737,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BackendTests_signUp - 2019.01.25 at 04h 38m 23s.xml">
-      <configuration name="BackendTests.signUp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BackendTests_updateUser - 2019.01.25 at 04h 46m 46s.xml">
-      <configuration name="BackendTests.updateUser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BackendTests_updateUser - 2019.01.25 at 04h 47m 36s.xml">
-      <configuration name="BackendTests.updateUser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BackendTests_updateUser - 2019.01.25 at 04h 47m 47s.xml">
-      <configuration name="BackendTests.updateUser" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="BackendTests_deleteUser - 2019.01.25 at 04h 55m 45s.xml">
       <configuration name="BackendTests.deleteUser" configurationId="TestNG" />
     </history-entry>
@@ -761,6 +755,18 @@
     <history-entry file="BackendTests_deleteUser - 2019.01.25 at 05h 02m 55s.xml">
       <configuration name="BackendTests.deleteUser" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="BackendTests_retrieving_info_for_one_user - 2019.01.25 at 05h 36m 58s.xml">
+      <configuration name="BackendTests.retrieving_info_for_one_user" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BackendTests_retrieving_info_for_one_user - 2019.01.25 at 05h 37m 40s.xml">
+      <configuration name="BackendTests.retrieving_info_for_one_user" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BackendTests_retrieving_info_for_one_user - 2019.01.25 at 05h 37m 49s.xml">
+      <configuration name="BackendTests.retrieving_info_for_one_user" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BackendTests_retrieving_info_for_one_user - 2019.01.25 at 05h 38m 21s.xml">
+      <configuration name="BackendTests.retrieving_info_for_one_user" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -773,9 +779,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3833" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26648024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26648024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -784,7 +789,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961783" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961783" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32961783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30015925" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -936,16 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/NewUserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -969,36 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
           <caret line="50" column="88" selection-start-line="50" selection-start-column="88" selection-end-line="50" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/ProfilePage_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/NewUserPage_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/LandingPage_map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="90" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1044,26 +1009,6 @@
           <folding>
             <element signature="e#15477#15478#0" expanded="true" />
             <element signature="e#15523#15524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/SignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1582">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/LandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1182,13 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/runners/BackendTests.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="85" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/data/DataProviderSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1221,10 +1159,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/ProfilePage_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/LandingPage_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/NewUserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/SignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/NewUserPage_map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/runners/BackendTests.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCases/BackendTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="742">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

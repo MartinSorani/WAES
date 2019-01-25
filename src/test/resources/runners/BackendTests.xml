@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="BackendSuite" verbose="1">
-    <parameter name="BaseUri" value="http://localhost:8081/waesheroes/api/v1/users"/>
+    <parameter name="BaseUri" value="http://localhost:8081"/>
     <test name="BackendTests">
         <classes>
             <class name="testCases.BackendTests"/>
