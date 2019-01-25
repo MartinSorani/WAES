@@ -4,5 +4,6 @@
     <suite-files>
         <suite-file path="LoginTests.xml" />
         <suite-file path="SignUpTests.xml" />
+        <suite-file path="BackendTests.xml"/>
     </suite-files>
 </suite>
