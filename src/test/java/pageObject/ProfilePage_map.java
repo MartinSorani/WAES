@@ -1,12 +1,15 @@
-package src.test.java.pageObject;
+package pageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import src.test.java.pageObject.common.BasePage;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import pageObject.common.BasePage;
 
 public class ProfilePage_map extends BasePage {
+
+    private WebDriver driver;
 
     //Functional elements
     @FindBy(id="profile_link")
@@ -24,7 +27,14 @@ public class ProfilePage_map extends BasePage {
 
     public ProfilePage_map(WebDriver driver){
         super(driver);
+        this.driver = driver;
         setRelativeUri("app/profile");
         PageFactory.initElements(driver, this );
     }
+
+    @Override
+    public ProfilePage assertThat(ExpectedCondition expectedCondition) {
+        return (ProfilePage) assertionMethod(expectedCondition, new ProfilePage(driver) );
+    }
+
 }

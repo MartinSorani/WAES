@@ -1,7 +1,7 @@
-package src.test.java.pageObject;
+package pageObject;
 
 import org.openqa.selenium.WebDriver;
-import src.test.java.pageObject.common.utilities.Log;
+import pageObject.common.utilities.Log;
 
 public class LandingPage extends LandingPage_map {
 

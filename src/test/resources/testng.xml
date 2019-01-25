@@ -1,6 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Regression">
+    <parameter name="browser" value="chrome"/>
     <suite-files>
         <suite-file path="LoginTests.xml" />
         <suite-file path="SignUpTests.xml" />

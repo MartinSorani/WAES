@@ -1,13 +1,16 @@
-package src.test.java.pageObject;
+package pageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.Select;
-import src.test.java.pageObject.common.BasePage;
+import pageObject.common.BasePage;
 
 public class SignUpPage_map extends BasePage {
+
+    private WebDriver driver;
 
     //Functional elements
     @FindBy(id="username_input")
@@ -38,7 +41,13 @@ public class SignUpPage_map extends BasePage {
 
     public SignUpPage_map(WebDriver driver){
         super(driver);
+        this.driver = driver;
         setRelativeUri("app/signUp");
         PageFactory.initElements(driver, this );
+    }
+
+    @Override
+    public SignUpPage assertThat(ExpectedCondition expectedCondition) {
+        return (SignUpPage) assertionMethod(expectedCondition, new SignUpPage(driver) );
     }
 }

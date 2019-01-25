@@ -1,4 +1,4 @@
-package src.test.java.pageObject.common.utilities;
+package pageObject.common.utilities;
 
 import org.testng.Reporter;
 

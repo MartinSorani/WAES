@@ -1,15 +1,13 @@
-package src.test.java.pageObject;
+package pageObject;
 
 import com.sun.media.sound.InvalidFormatException;
 import org.apache.commons.validator.EmailValidator;
 import org.openqa.selenium.WebDriver;
-import src.test.java.pageObject.common.utilities.Log;
-import java.text.SimpleDateFormat;
+import pageObject.common.utilities.Log;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
-public class SignUpPage extends src.test.java.pageObject.SignUpPage_map {
+public class SignUpPage extends SignUpPage_map {
 
     private WebDriver driver;
 

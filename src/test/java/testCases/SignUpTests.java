@@ -1,7 +1,10 @@
+package testCases;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
-import src.test.java.pageObject.NewUserPage_map;
-import src.test.java.pageObject.common.BaseTest;
+import pageObject.NewUserPage_map;
+import pageObject.common.BaseTest;
+
 import java.time.LocalDate;
 import java.time.Month;
 

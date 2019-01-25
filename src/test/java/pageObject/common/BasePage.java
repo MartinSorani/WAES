@@ -1,19 +1,16 @@
-package src.test.java.pageObject.common;
+package pageObject.common;
 
-import org.checkerframework.checker.nullness.compatqual.NullableDecl;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import src.test.java.pageObject.common.utilities.Log;
+import pageObject.common.utilities.Log;
 
 
-public class BasePage implements IBasePage {
+public abstract class BasePage<T> implements IBasePage {
 
     private WebDriver driver;
 
@@ -51,18 +48,9 @@ public class BasePage implements IBasePage {
     }
 
     //Sorry, I don't have the time to create and debug an elaborated assertion item, this will have to do =(
-    public BasePage assertThat(Boolean condition) {
-        Log.info("Evaluating assertion");
-        try {
-            Assert.assertTrue(condition);
-        } catch (Exception e) {
-            throw new AssertionError("Assertion failed: " + e.getMessage());
-        }
-        Log.info("Assertion successful");
-        return this;
-    }
+    public abstract <T extends BasePage> T assertThat(ExpectedCondition<Boolean> expectedCondition);
 
-    public BasePage assertThat(ExpectedCondition<Boolean> expectedCondition){
+    public <T extends BasePage> T assertionMethod(ExpectedCondition<Boolean> expectedCondition, T page){
         Log.info("Evaluating assertion");
         try {
             WebDriverWait wait = new WebDriverWait(driver, TIMEOUT);
@@ -73,7 +61,7 @@ public class BasePage implements IBasePage {
             throw new AssertionError("Assertion failed: " + e.getMessage());
         }
         Log.info("Assertion successful");
-        return this;
+        return page;
     }
 
     public void waitForUrlContains(String expectedUri) {
@@ -81,5 +69,4 @@ public class BasePage implements IBasePage {
         ExpectedCondition<Boolean> urlContains = arg0 -> driver.getCurrentUrl().contains(expectedUri);
         wait.until(urlContains);
     }
-
 }

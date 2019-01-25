@@ -1,10 +1,11 @@
+package testCases;
+
+import data.DataProviderSource;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import src.test.java.data.DataProviderSource;
-import src.test.java.pageObject.ProfilePage;
-import src.test.java.pageObject.common.BasePage;
-import src.test.java.pageObject.common.BaseTest;
+import pageObject.ProfilePage;
+import pageObject.common.BasePage;
+import pageObject.common.BaseTest;
 
 public class LoginTests extends BaseTest {
 
@@ -13,16 +14,16 @@ public class LoginTests extends BaseTest {
         test()
                 .goToLoginPage()
                 .login(username, password)
-                .assertThat(ExpectedConditions.textToBePresentInElement(BasePage.statusBarText, "Logged in as " + userDetails));
+                .assertThat(ExpectedConditions.textToBePresentInElement(BasePage.statusBarText, "Logged in as " + userDetails))
+                .logOut();
     }
 
-    @Test
-    @Parameters({"wrongUsername", "badPassword"})
+    @Test(dataProvider = "badLogin", dataProviderClass = DataProviderSource.class)
     public void VerifyIncorrectLogin(String username, String password){
         test()
                 .goToLoginPage()
                 .loginWithError(username, password)
-                .assertThat(ExpectedConditions.textToBePresentInElement(BasePage.statusBarText, "Stupid asshole"));
+                .assertThat(ExpectedConditions.textToBePresentInElement(BasePage.statusBarText, "Wrong credentials. You can do it, try again!"));
     }
 
     @Test(dataProvider = "usersDetails", dataProviderClass = DataProviderSource.class)
@@ -30,6 +31,7 @@ public class LoginTests extends BaseTest {
         test()
                 .goToLoginPage()
                 .login(username, password)
-                .assertThat(ExpectedConditions.textToBePresentInElement(ProfilePage.userDetails, userDetails));
+                .assertThat(ExpectedConditions.textToBePresentInElement(ProfilePage.userDetails, userDetails))
+                .logOut();
     }
 }

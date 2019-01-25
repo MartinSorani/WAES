@@ -1,9 +1,10 @@
-package src.test.java.pageObject;
+package pageObject;
 
 import org.openqa.selenium.WebDriver;
-import src.test.java.pageObject.common.utilities.Log;
+import pageObject.common.IBasePage;
+import pageObject.common.utilities.Log;
 
-public class ProfilePage extends ProfilePage_map {
+public class ProfilePage extends ProfilePage_map implements IBasePage {
 
     private WebDriver driver;
 

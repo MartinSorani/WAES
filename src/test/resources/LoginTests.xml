@@ -5,7 +5,7 @@
         <parameter name="wrongUsername" value="wrongUser"/>
         <parameter name="badPassword" value="noPassword"/>
         <classes>
-            <class name="LoginTests"/>
+            <class name="testCases.LoginTests"/>
         </classes>
     </test>
 </suite>
