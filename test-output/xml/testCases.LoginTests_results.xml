@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginTests"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="33.085">
+  <properties />
+  
+  
+            <testcase name="VerifyCorrectUserDetails" time="4.305" classname="testCases.LoginTests" />
+                <testcase name="VerifyCorrectLogin" time="5.066" classname="testCases.LoginTests" />
+                <testcase name="VerifyCorrectLogin" time="4.823" classname="testCases.LoginTests" />
+                <testcase name="VerifyCorrectUserDetails" time="4.186" classname="testCases.LoginTests" />
+                <testcase name="VerifyCorrectUserDetails" time="4.320" classname="testCases.LoginTests" />
+                <testcase name="VerifyIncorrectLogin" time="4.841" classname="testCases.LoginTests" />
+                <testcase name="VerifyCorrectLogin" time="5.544" classname="testCases.LoginTests" />
+      
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BackendTests"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.713">
+  <properties />
+  
+  
+            <testcase name="deleteUser" time="0.080" classname="testCases.BackendTests" />
+                <testcase name="signUp" time="0.959" classname="testCases.BackendTests" />
+                <testcase name="login" time="0.162" classname="testCases.BackendTests" />
+                <testcase name="retrieving_information_from_all_users" time="0.080" classname="testCases.BackendTests" />
+                <testcase name="updateUser" time="0.149" classname="testCases.BackendTests" />
+                <testcase name="retrieving_info_for_one_user" time="0.283" classname="testCases.BackendTests" />
+      
+</testsuite>
